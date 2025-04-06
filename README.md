@@ -8,4 +8,5 @@
 6. Strategies that date back more than a millenium - Went to complaint portal........found two base64 encoded strings in html file using inspect which were hidden. Then decoded those base64 strings got 2 lichess links. Exported the two pgn datas of the chess games. Searched on google for chess encryption, chess steganography etc, and found a github repo link, downloaded it to my local system and found two codes decoder.py and encoder.py Using these and I decoded the moves, chess moves and found the text.
 7. Benedict_and_William - In Linux operating systems, Line ends with \n whereas in windows it ends with \r\n. Exploiting this I found which lines were changed by running a python code.
 8. legos to logos - Flag was hidden in meta data. Just had to open image in notepad.
-9. 
+9. cant_fast_forward_security_02 - I found the github hub commits filtering march dates. Then I ran a python script to check for deleted, removed or keys in that filtered commits. Found a commit named removed keys and then using gitshow got the commit containing the flag.
+10. cant_fast_forward_security_02 - I found rust in the cloned repo. I usually see rust files very rarely so opened it and bang there was the flag !!
